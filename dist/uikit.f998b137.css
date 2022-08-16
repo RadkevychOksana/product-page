@@ -1,0 +1,89 @@
+@font-face {
+  font-family: socialico;
+  src: url("socialico-webfont.bd02662b.woff2") format("woff2"), url("socialico-webfont.ef18afcf.woff") format("woff"), url("socialico-webfont.d66bfc6f.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html, body {
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+}
+
+h1, h2, h3 {
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #e2dcc8;
+}
+
+.divider {
+  height: 50px;
+}
+
+.container {
+  max-width: 1180px;
+  margin: auto;
+}
+
+.ui__title {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.h1 {
+  color: #fff;
+  text-shadow: .5px .9px #0000004d;
+  margin-bottom: 3rem;
+  font-family: Arial, sans-serif;
+  font-size: 4rem;
+}
+
+@media (min-width: 767px) {
+  .h1 {
+    margin-bottom: 5rem;
+    font-size: 5.9rem;
+  }
+}
+
+.h2 {
+  color: #0f3d3e;
+  text-align: left;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.h3 {
+  color: #0f3d3e;
+  font-size: 2.4rem;
+  line-height: 1.25;
+}
+
+.p1 {
+  color: #100f0f;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.p2 {
+  font-size: 1.4rem;
+  line-height: 1.29;
+}
+
+.lead {
+  color: #fff;
+  text-shadow: .5px .9px #0000004d;
+  font-size: 2rem;
+  line-height: 1.8;
+}
+
+/*# sourceMappingURL=uikit.f998b137.css.map */
