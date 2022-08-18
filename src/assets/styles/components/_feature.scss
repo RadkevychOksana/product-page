@@ -1,0 +1,18 @@
+.feature{
+    
+    padding-left: 2rem;
+    position: relative;
+    width: 100%;
+    &__text{
+        @include p1();
+    }
+    &::before{
+        content: "\f0fe";
+        font-family: "Font Awesome 5 Free";
+        position: absolute;
+        color: $primaryColor;
+        top:0.4rem; 
+        left:0;
+        font-size: 1.6rem;
+    }
+}
